@@ -6,32 +6,35 @@ The objective function and constraints are represented as linear equations or in
 
 1. Formulate a minimization problem
 
-$\begin{align}
+$$
+\begin{align}
 \underset{\substack{\mathbf{x}}}{\mathrm{min}} \quad & \mathrm{c}^T \mathbf{x} \\
 \text{subject to} \quad & \mathrm{A}_{\text{eq}}\mathbf{x} = \mathrm{b}_{\text{eq}} \\
  & \mathrm{A}_{\text{ineq}}\mathbf{x} \le \mathrm{b}_{\text{ineq}}
  \end{align}
-$
+$$
 
 2. Formulate a maximization problem
 
-$\begin{align}
+$$
+\begin{align}
 \underset{\substack{\mathbf{x}}}{\mathrm{max}} \quad & \mathrm{c}^T \mathbf{x} \\
 \text{subject to} \quad & \mathrm{A}_{\text{eq}}\mathbf{x} = \mathrm{b}_{\text{eq}} \\
  & \mathrm{A}_{\text{ineq}}\mathbf{x} \le \mathrm{b}_{\text{ineq}}
  \end{align}
-$
+$$
 
 Pulp, Pyomo, Scipy are three popular open-source modeling languages used for formulating and solving linear programming problems. They provide powerful tools for modeling and solving linear programming problems. They offer flexible and intuitive syntaxes for specifying optimization models and can be easily integrated into existing Python-based workflows. Additionally, they both support a wide range of solvers, making it easy to find the best solver for a particular problem.
 
 Please note that I am utilizing the linprog package from the scipy.optimize library for linear programming. It is important to note that linprog solves a minimization problem by default, so to solve a maximization problem, the objective function should be defined as the opposite of its minimization problem.
 
-$\begin{align}
+$$
+\begin{align}
 \underset{\substack{\mathbf{x}}}{\mathrm{min}} \quad & \mathrm{c}^T \mathbf{x} \\
 \text{subject to} \quad & \mathrm{A}_{\text{eq}}\mathbf{x} = \mathrm{b}_{\text{eq}} \\
  & \mathrm{A}_{\text{ineq}}\mathbf{x} \le \mathrm{b}_{\text{ineq}}
  \end{align}
-$
+$$
 
 For example, consider the following linear programming problem:
 
