@@ -6,12 +6,7 @@ The objective function and constraints are represented as linear equations or in
 
 1. Formulate a minimization problem
 
-$\begin{align}
-\underset{\substack{\mathbf{x}}}{\mathrm{min}} \quad & \mathrm{c}^T \mathbf{x} \\
-\text{subject to} \quad & \mathrm{A}_{\text{eq}}\mathbf{x} = \mathrm{b}_{\text{eq}} \\
- & \mathrm{A}_{\text{ineq}}\mathbf{x} \le \mathrm{b}_{\text{ineq}}
- \end{align}
-$
+min𝐱subject toc𝑇𝐱Aeq𝐱=beqAineq𝐱≤bineq
 
 2. Formulate a maximization problem
 
