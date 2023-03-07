@@ -34,4 +34,4 @@ This is how you can visualize the problem:
 
 The feasible region represents the set of points that satisfy all the constraints. The optimal solution corresponds to the point in the feasible region that maximizes the value of y. The feasible region is the gray area, which represents all possible solutions that satisfy the constraints. There may be an infinite number of feasible solutions, but the optimal solution is the one that maximizes y.
 
-This notebook contains 8 mini problems from various optimization topics. The purpose of these problems is to provide ample practice in formulating optimization problems and gaining familiarity with commonly used optimization libraries in Python.
+This notebook contains 8 mini problems from various optimization topics. The purpose of these problems is to provide ample practice in formulating optimization problems and gaining familiarity with commonly used optimization packages and solvers (gurobi, cbc, and glpk) in Python.
