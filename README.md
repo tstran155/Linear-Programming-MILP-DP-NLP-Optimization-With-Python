@@ -12,7 +12,7 @@ The objective function and constraints are represented as linear equations or in
 
 ![image](https://user-images.githubusercontent.com/86640902/222190342-79b5e4a5-1cad-444e-808a-b379db88e24a.png)
 
-Pulp, Pyomo, Scipy, and OR-tools are three popular open-source modeling languages used for formulating and solving linear programming problems. They provide powerful tools for modeling and solving linear programming problems. They offer flexible and intuitive syntaxes for specifying optimization models and can be easily integrated into existing Python-based workflows. Additionally, they both support a wide range of solvers, making it easy to find the best solver for a particular problem.
+Pulp, Pyomo, Scipy, and OR-tools are popular open-source modeling languages used for formulating and solving linear programming problems. They provide powerful tools for modeling and solving linear programming problems. They offer flexible and intuitive syntaxes for specifying optimization models and can be easily integrated into existing Python-based workflows. Additionally, they both support a wide range of solvers, making it easy to find the best solver for a particular problem.
 
 
 For example, consider the following linear programming problem:
