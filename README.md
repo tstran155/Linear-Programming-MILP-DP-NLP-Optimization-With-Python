@@ -12,9 +12,8 @@ The objective function and constraints are represented as linear equations or in
 
 ![image](https://user-images.githubusercontent.com/86640902/222190342-79b5e4a5-1cad-444e-808a-b379db88e24a.png)
 
-Pulp, Pyomo, Scipy are three popular open-source modeling languages used for formulating and solving linear programming problems. They provide powerful tools for modeling and solving linear programming problems. They offer flexible and intuitive syntaxes for specifying optimization models and can be easily integrated into existing Python-based workflows. Additionally, they both support a wide range of solvers, making it easy to find the best solver for a particular problem.
+Pulp, Pyomo, Scipy, and OR-tools are three popular open-source modeling languages used for formulating and solving linear programming problems. They provide powerful tools for modeling and solving linear programming problems. They offer flexible and intuitive syntaxes for specifying optimization models and can be easily integrated into existing Python-based workflows. Additionally, they both support a wide range of solvers, making it easy to find the best solver for a particular problem.
 
-Please note that I am utilizing the linprog package from the scipy.optimize library for linear programming. It is important to note that linprog solves a minimization problem by default, so to solve a maximization problem, the objective function should be defined as the opposite of its minimization problem.
 
 For example, consider the following linear programming problem:
 
@@ -34,4 +33,4 @@ This is how you can visualize the problem:
 
 The feasible region represents the set of points that satisfy all the constraints. The optimal solution corresponds to the point in the feasible region that maximizes the value of y. The feasible region is the gray area, which represents all possible solutions that satisfy the constraints. There may be an infinite number of feasible solutions, but the optimal solution is the one that maximizes y.
 
-This notebook contains 8 mini problems from various optimization topics. The purpose of these problems is to provide ample practice in formulating optimization problems and gaining familiarity with commonly used optimization packages and solvers (gurobi, cbc, and glpk) in Python.
+This notebook contains 8 mini problems from various optimization topics. The purpose of these problems is to provide ample practice in formulating optimization problems and gaining familiarity with commonly used optimization packages and solvers (gurobi, cbc, glpk, and couenne) in Python.
