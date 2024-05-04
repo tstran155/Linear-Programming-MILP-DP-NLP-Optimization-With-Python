@@ -1,4 +1,4 @@
-# Linear Programming Optimization with Python
+# Linear Programming and Mixed-Integer Linear Programming Optimization with Python
 
 Linear programming is a mathematical optimization technique used to optimize a linear objective function subject to a set of linear constraints. It involves finding the values of decision variables that minimize or maximize the objective function while satisfying the given constraints.
 
