@@ -1,6 +1,8 @@
-# Linear Programming Optimization with Python
+# Linear Programming and Mixed-Integer Linear Programming (MILP) Optimization with Python 
 
-Linear programming is a mathematical optimization technique used to optimize a linear objective function subject to a set of linear constraints. It involves finding the values of decision variables that minimize or maximize the objective function while satisfying the given constraints.
+Linear programming is a mathematical optimization technique used to optimize a linear objective function subject to a set of linear constraints. It involves finding the values of decision variables that minimize or maximize the objective function while satisfying the given constraints. Mixed Integer Linear Programming extends LP to include cases where some or all of the decision variables are required to be integers. This is particularly useful in scenarios where decisions involve discrete units (like numbers of plants, machines, or hectares in this case). MILP is ideal for scenarios requiring discrete decisions. For this rice planting problem, this would mean specifying the exact number of hectares for each type of rice in each field type, which cannot realistically be fractional. It can model a wide range of practical problems more accurately than LP when integer constraints are involved.
+
+On the flip side, solving MILP problems is generally more computationally intensive than LP. This is because the integer constraints make the problem more complex, leading to potentially longer solve times and higher computational resource usage. As the size of the problem (number of variables and constraints) grows, MILPs can become significantly harder to solve optimally.
 
 The objective function and constraints are represented as linear equations or inequalities, and the decision variables are the unknowns that need to be determined. The goal of linear programming is to find the optimal solution that satisfies all the constraints while optimizing the objective function.
 
